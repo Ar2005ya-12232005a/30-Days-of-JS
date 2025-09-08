@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: white;
+    
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:auto;
+    height: 30vh;
+    width: auto;
+}
+
+#clock{
+    font-size: 60px;
+}
+
+#sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: auto;
+}
+
+
+#clock2{
+    display: flex;
+    justify-content: center;
+    font-size:100px;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+    height: 40vh;
+    width: 40vw;
+}
