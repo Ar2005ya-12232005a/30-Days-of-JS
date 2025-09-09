@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body{
+    background-color: white;
+}
+
+
+nav{
+    height: 20vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#heading{
+    color: black;
+
+
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: auto;
+    color: black;
+}
+
+#passwordBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vh;
+    gap: 10px;
+    width: 50vw;
+}
+
+
+#password{
+    padding: 10px;
+    height: 10vh;
+    width: 20vw ;
+    font-size: 15px;
+}
+
+#button{
+    height: 5vh;
+    width: 10vw;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+
+}
+
+#clear{
+    height: 5vh;
+    width: 5vw;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+    
+}
+
+
